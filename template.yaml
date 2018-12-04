@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: hands-on SAM
+
+Resources:
+
+  Article:
+# add the table defintion here
+  RssReader:
+# add the RssReader function definition here
+  AudioTranscoder:
+# add the RssReader function definition here
+  ServerlessXkeDemoBucket:
+# add the bucket function here
+
+

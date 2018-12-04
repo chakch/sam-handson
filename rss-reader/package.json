@@ -1,0 +1,13 @@
+{
+  "name": "hello-aws-javascript",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.323.0",
+    "uuid-by-string": "^0.6.0",
+    "feedparser-promised": "^2.0.0",
+    "html-entities": "^1.2.1"
+  },
+  "devDependencies": {
+    "uuid": "^3.3.2"
+  }
+}
