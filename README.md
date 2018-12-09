@@ -143,7 +143,7 @@ https://console.aws.amazon.com/iam/home?region=eu-central-1#/roles
 
 ![alt text](images/next_step.png "Transcoder Architecture")
 
-Some time we need to sychronize the articles manually. To do this we are going to trigger the RSSreader function by a Http call.
+Sometimes, we need to sychronize the articles manually. To do this, we are going to trigger the RSSreader function by a Http call.
 
 - Create an http endpoint to trigger the RssReader function
 
