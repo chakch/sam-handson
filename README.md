@@ -1,7 +1,7 @@
 # Sam-handson
-If you are here, you believe that the framework strength came from it community.
+If you are here, you choose a framework created by a cloud provider.
 
-In this hands-on we are going to read a rssFeed, convert it to MP3 and saved it in database.
+In this hands-on, we are going to read a rssFeed, convert it to MP3 and saved it in database.
 
 ![alt text](images/architecture_lambda.png "Transcoder Architecture")
 
