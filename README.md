@@ -22,7 +22,7 @@ So let's get started :blush:
 For this hands-on, you need to install node version 8.9
 you can use node version manager to handle multiple node version
 
-- The installation instruction are available here: https://github.com/creationix/nvm
+- The installation instructions are available here: https://github.com/creationix/nvm
 
 - Check you install: `nvm --version`
 
@@ -46,11 +46,11 @@ https://pip.pypa.io/en/stable/installing/
 
 `pip install awscli --upgrade --user` 
 
-- Verify that the AWS CLI installed correctly
+- Verify that the AWS CLI is installed correctly
 
 `aws --version`
 
-- Sam need an S3 bucket to save to packaged code: aws s3 mb s3://`YOUR_BUCKET_NAME`
+- Sam needs a S3 bucket to save to packaged code: aws s3 mb s3://`YOUR_BUCKET_NAME`
 
 ## Second Step : Prepare the weapon
 
@@ -65,7 +65,7 @@ Checkout the projet and start coding :cloud:
 
 ![alt text](images/first_block.png "Transcoder Architecture")
 
-The RssReader function read every day the Amazon blog rssFeed and save it on dynamoDB
+The RssReader function reads every day the Amazon blog rssFeed and saves it on dynamoDB
 
 The function code is available on the package rss-reader
 
@@ -105,7 +105,7 @@ The function code is available on the package rss-reader
 
 https://eu-central-1.console.aws.amazon.com/lambda/home?region=eu-central-1#/functions 
 
-- Check the schuedeled task that trigger the Lambda
+- Check the schuedeled task that triggers the Lambda
 
 https://eu-central-1.console.aws.amazon.com/cloudwatch/home?region=eu-central-1#rules:         
 
@@ -149,7 +149,7 @@ Sometimes, we need to sychronize the articles manually. To do this, we are going
 
 https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-template.html#serverless-sam-template-function
 
-- Check the APIGateway Service to see what hapened.
+- Check the APIGateway Service to see what hapenned.
 
 https://eu-central-1.console.aws.amazon.com/apigateway/home?region=eu-central-1#/welcome
 
