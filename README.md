@@ -19,7 +19,7 @@ So let's get started :blush:
 
 ## First Step : Prepare the field
 
-For this hands-on you need to install node version 8.9
+For this hands-on, you need to install node version 8.9
 you can use node version manager to handle multiple node version
 
 - The installation instruction are available here: https://github.com/creationix/nvm
